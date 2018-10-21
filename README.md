@@ -1,4 +1,6 @@
-# Setting up nginx web-cluster with load balancer using vagrant
+# Setting up nginx web-cluster with load balancer using Vagrant
+
+Each nginx node adds header "backend_srv" with a unique value (node1, node2) using directive add_header.
 
 Load balancer has the following conditions:
 
